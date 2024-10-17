@@ -1,9 +1,5 @@
-import { SectionOne } from "../styles/pages/home";
+import { SectionOneComponent } from "../components/home/section-one";
 
 export function Home() {
-    return (
-        <SectionOne>
-            <h1>Home Page</h1>
-        </SectionOne>
-    );
+    return <SectionOneComponent />;
 }

@@ -5,7 +5,7 @@ import {
     NavBoxOne,
     NavBoxThree,
     NavBoxTwo,
-} from "../styles/nav/nav";
+} from "../../styles/nav/nav";
 
 export function NavBar() {
     const [isActive, setIsActive] = useState(false);
